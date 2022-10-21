@@ -1,0 +1,125 @@
+
+body{
+    min-height: 97vh;
+    max-width: 100%;
+    background-color: hsl(185, 75%, 39%) ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(pictures/bg-pattern-top.svg), url(pictures/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 30vh, left 50vw top 50vh;
+}
+
+h1{
+    margin: 20px 0 0 0;
+    font-size: 18px;
+}
+hr{
+    color:hsl(0, 0%, 59%) ;
+    position: relative;
+    bottom: 50px;
+}
+p{
+    color:hsl(227, 10%, 46%);
+    margin: 10px 0 20px 0 ;
+}
+table{
+    border-collapse: separate;
+}  
+th{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:hsl(229, 23%, 23%);
+}
+td{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    font-size: 13px;
+    
+}
+.name{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+.twenty-six{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+.profile-pic{
+    border-radius: 50px;
+    border: solid white 3px;
+
+}
+
+.bg-pattern-top{
+    position: absolute;
+    right: 50%;
+    bottom:30%;    
+}
+
+.bg-pattern-bottom{
+    position: absolute; 
+    overflow: hidden;
+}
+
+.bg-pattern-card{
+    width: 350px;
+    height: 140px;
+    border-radius: 10px 10px 0 0 ;
+    margin: 0;
+
+}
+.card{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0;
+}
+.card-top{
+    margin: 0;
+}
+
+.card-middle{
+    font-family: 'Kumbh Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+}
+.card-bottom{
+    font-family: 'Kumbh Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.bottom-table{
+    font-family: 'Kumbh Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    bottom: 30px;
+}
+.first-row{
+    position: relative;
+    right: 60px;
+}
+.last-row{
+    position: relative;
+    left: 60px;
+}
+.attribution {
+    position: absolute;
+    font-size: 13px; text-align: center;
+     top: 85%;
+    font-weight: bold;
+
+}
+.attribution a { color: hsl(228, 45%, 44%); }
